@@ -1,0 +1,55 @@
+@media only screen and (max-width: 992px) {
+  #hide-name h5 {
+    display: none;
+  }
+  .banner {
+    background-position: center;
+  }
+  #cer1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #cer2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #cer3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .certification img {
+    width: 320px;
+    height: 160px;
+  }
+  .borline-top p {
+    display: flex;
+    flex-direction: column;
+  }
+  #footer li {
+    margin: 0 20px;
+  }
+  #project-cv {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .pjbox {
+    flex-direction: column;
+  }
+  .pjbox2 {
+    flex-direction: column;
+  }
+  .line1 {
+    height: auto;
+    max-height: 100%;
+  }
+  .line2 {
+    height: auto;
+    max-height: 100%;
+  }
+  .icon1 {
+    align-self: center;
+  }
+  .icon2 {
+    align-self: center;
+  }
+}
